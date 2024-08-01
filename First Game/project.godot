@@ -18,9 +18,13 @@ config/icon="res://icon.svg"
 [autoload]
 
 Music="*res://scenes/music.tscn"
+MultiplayerManager="*res://scripts/multiplayer_manager.gd"
 
 [display]
 
+window/size/viewport_width=800
+window/size/viewport_height=500
+window/size/always_on_top=true
 window/vsync/vsync_mode=0
 
 [input]
